@@ -1,0 +1,61 @@
+# tw-house-ops User Profile
+# USER LAYER — never overwritten by system updates.
+
+user:
+  name: ""
+  commute_origin: ""                # 未設定（純看階段）
+  commute_max_minutes: 40
+
+search:
+  mode: buy
+  buyer_type: first_time
+
+budget:
+  rent_max: 25000
+  buy_max: 12000000                 # 1200 萬上限
+  monthly_payment_max: 40000
+
+finance:
+  monthly_income: 80000
+  savings: 1500000
+  youth_loan_eligible: true
+
+current_property:
+  estimated_value: null
+  loan_remaining: null
+  purchase_year: null
+  selling_strategy: sell_first
+
+property:
+  size_min: 10                      # 10 坪以上
+  size_max: null
+  floor_min: 2
+  types:
+    include: ["公寓", "華廈", "大樓", "透天", "套房"]
+    exclude: ["預售屋", "店面", "辦公室", "車位"]
+  age_max: 40
+  elevator: optional
+  parking: optional
+  pet: false
+
+regions:
+  - city: "台北市"
+    districts: ["松山區", "信義區", "南港區", "內湖區"]
+
+lifestyle:
+  mrt_walk_max: 15
+  priorities:
+    - mrt
+    - supermarket
+    - school
+    - hospital
+
+narrative:
+  deal_breakers:
+    - "頂樓加蓋"
+    - "一樓"
+    - "鄰近殯儀館"
+  nice_to_have:
+    - "南北採光"
+    - "社區管理"
+  notes: "純看階段，尚未積極規劃。1200 萬內，松信南港內湖四區皆可。"
