@@ -17,7 +17,7 @@ budget:
 
 finance:
   monthly_income: 60000              # 稅前月薪
-  savings: 300000                    # 頭期款上限（區間 10-30 萬，取上緣）
+  savings: 3000000                   # 頭期款（區間 100-300 萬，取上緣）
   youth_loan_eligible: true          # 青安貸款：年齡 ≤ 40、無自有房產
 
 current_property:                    # first_time 不適用
