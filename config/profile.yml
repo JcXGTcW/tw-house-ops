@@ -15,9 +15,9 @@ budget:
   buy_max: 12000000                  # 上限 1200 萬（區間 800–1200 萬）
   monthly_payment_max: 30000         # 每月房貸極限
 
-finance:                             # TODO: 之後用 afford 模式時補
-  monthly_income: null
-  savings: null
+finance:
+  monthly_income: 60000              # 稅前月薪
+  savings: 300000                    # 頭期款上限（區間 10-30 萬，取上緣）
   youth_loan_eligible: true          # 青安貸款：年齡 ≤ 40、無自有房產
 
 current_property:                    # first_time 不適用
