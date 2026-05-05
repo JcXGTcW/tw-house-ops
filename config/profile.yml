@@ -34,7 +34,7 @@ property:
     include: ["公寓", "華廈", "大樓", "透天", "套房"]
     exclude: ["預售屋", "店面", "辦公室", "車位"]
   age_max: 40
-  elevator: optional
+  elevator: true
   parking: optional
   pet: false
 
@@ -55,7 +55,11 @@ narrative:
     - "頂樓加蓋"
     - "一樓"
     - "鄰近殯儀館"
+  must_have:
+    - "獨立洗衣機"
+    - "台電計費"
+    - "有電梯"
   nice_to_have:
     - "南北採光"
     - "社區管理"
-  notes: "租屋為主，三重新莊，通勤湯城園區（新莊線），20,000/月內。"
+  notes: "租屋為主，三重新莊，通勤湯城園區（先嗇宮站），20,000/月內。必須：獨洗、有電梯、台電計費。"
