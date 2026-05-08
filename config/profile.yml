@@ -40,7 +40,7 @@ property:
 
 regions:
   - city: "新北市"
-    districts: ["三重區", "新莊區"]
+    districts: ["三重區", "新莊區", "板橋區"]
 
 lifestyle:
   mrt_walk_max: 15
