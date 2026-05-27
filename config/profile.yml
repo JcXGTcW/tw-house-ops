@@ -28,11 +28,11 @@ current_property:
 
 property:
   size_min: 10                      # 10 坪以上
-  size_max: null
+  size_max: 20
   floor_min: 2
   types:
     include: ["公寓", "華廈", "大樓", "透天", "套房"]
-    exclude: ["預售屋", "店面", "辦公室", "車位"]
+    exclude: ["預售屋", "店面", "辦公室", "車位", "分租套房", "雅房"]
   age_max: 40
   elevator: true
   parking: optional
@@ -41,6 +41,8 @@ property:
 regions:
   - city: "新北市"
     districts: ["三重區", "新莊區", "板橋區"]
+  - city: "台北市"
+    districts: ["萬華區"]
 
 lifestyle:
   mrt_walk_max: 15
@@ -59,7 +61,9 @@ narrative:
     - "獨立洗衣機"
     - "台電計費"
     - "有電梯"
+    - "可開伙"
   nice_to_have:
+    - "瓦斯爐"
     - "南北採光"
     - "社區管理"
-  notes: "租屋為主，三重新莊，通勤湯城園區（先嗇宮站），20,000/月內。必須：獨洗、有電梯、台電計費。"
+  notes: "租屋為主，板橋/三重/新莊/萬華(西門)，通勤湯城園區（先嗇宮站），20,000/月內，10-20坪。必須：獨洗、電梯、台電、可開伙。套房或整層，不要分租/雅房。瓦斯爐大加分。"
